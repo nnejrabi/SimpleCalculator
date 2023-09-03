@@ -6,7 +6,7 @@ var showNum = document.querySelector(".screen");
 
 numButton.forEach(function(button){
   button.addEventListener('click', function(event){
-    if(event.target.innerHTML == "c"){
+    if(event.target.innerHTML == "C"){
       return showNum.value = "";
     } else if (event.target.innerHTML == "=") {
       return;
